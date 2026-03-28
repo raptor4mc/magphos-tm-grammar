@@ -1,0 +1,27 @@
+{
+  "name": "magphos",
+  "displayName": "MagPhos",
+  "description": "Syntax highlighting for the MagPhos programming language",
+  "version": "0.0.1",
+  "publisher": "raptor4mc",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "magphos",
+        "aliases": ["MagPhos", "magphos"],
+        "extensions": [".mp", ".mgph", ".magphos"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "magphos",
+        "scopeName": "source.magphos",
+        "path": "./syntaxes/magphos.tmLanguage.json"
+      }
+    ]
+  }
+}
