@@ -1,0 +1,37 @@
+{
+  "scopeName": "source.magphos",
+  "name": "MagPhos",
+  "patterns": [
+    {
+      "name": "keyword.control.magphos",
+      "match": "\\b(if|else|loop|set|var)\\b"
+    },
+    {
+      "name": "keyword.other.magphos",
+      "match": "\\bprint\\b"
+    },
+    {
+      "name": "string.quoted.double.magphos",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.magphos",
+      "match": "\\b[0-9]+\\b"
+    },
+    {
+      "name": "variable.other.magphos",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    },
+    {
+      "name": "keyword.operator.magphos",
+      "match": "(\\+|\\-|\\*|\\/|==|>=|<=|>|<|=)"
+    },
+    {
+      "name": "punctuation.bracket.magphos",
+      "match": "[{}()]"
+    }
+  ],
+  "repository": {},
+  "fileTypes": ["mp", "mgph", "magphos"]
+}
